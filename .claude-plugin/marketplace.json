@@ -1,0 +1,14 @@
+{
+  "name": "claude-toolbox",
+  "owner": { "name": "Swabhiman Nanda" },
+  "metadata": {
+    "description": "An open-source toolbox for Claude Code: mods, skills and other add-ons."
+  },
+  "plugins": [
+    {
+      "name": "usage-limits",
+      "source": "./plugins/usage-limits",
+      "description": "Shows your 5-hour and weekly usage limits (percent used and time to reset) in one line under the prompt."
+    }
+  ]
+}
